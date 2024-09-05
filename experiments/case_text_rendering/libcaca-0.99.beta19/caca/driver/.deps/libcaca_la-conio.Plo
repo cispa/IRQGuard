@@ -1,0 +1,4 @@
+driver/libcaca_la-conio.lo: driver/conio.c /usr/include/stdc-predef.h \
+ ../config.h
+/usr/include/stdc-predef.h:
+../config.h:

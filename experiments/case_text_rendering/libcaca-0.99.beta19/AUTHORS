@@ -1,0 +1,34 @@
+/** \page libcaca-authors Libcaca authors
+
+Sam Hocevar <sam@hocevar.net>
+ - main programmer
+
+Jean-Yves Lamoureux <jylam@lnxscene.org>
+ - cacaball
+ - OpenGL driver
+ - exporters
+ - network driver
+ - C# bindings
+
+John Beppu <beppu@lbox.org>
+ - Term::Caca Perl wrapper
+
+Ben Wiley Sittler <bsittler@gmail.com>
+ - numerous bugfixes and enhancements
+
+Pascal Terjan <pterjan@linuxfr.org>
+ - Ruby bindings
+
+Daniele "Eriol" Tricoli <eriol@mornie.org>
+ - Python CTypes sample program
+
+Nicolas Vion <nico@picapo.net>
+ - PHP bindings
+
+Adrien Grand <jpountz@dinauz.org>
+ - Java bindings
+
+Alex Foulon <alxf@lavabit.com>
+ - Python bindings
+
+*/

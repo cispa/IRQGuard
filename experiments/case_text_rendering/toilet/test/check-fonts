@@ -1,0 +1,31 @@
+#!/bin/sh
+
+ret=0
+
+#
+# Check that we have no tabs or trailing spaces in the source code
+#
+nfails=0
+nfonts=0
+for x in $(make -s echo-fonts -C ../fonts); do
+  case "$x" in
+   *.tlf|*.flf) ;;
+   *) continue ;;
+  esac
+  nfonts=$(($nfonts + 1))
+  if ../src/toilet -d ../fonts -f "$x" Hello World >/dev/null; then
+    :
+  else
+    echo "Error loading font $x"
+    nfails=$(($nfails + 1))
+  fi
+done
+
+echo "$nfonts fonts, $nfails load errors"
+
+if test "$nfails" != "0"; then
+  exit 1
+fi
+
+exit 0
+

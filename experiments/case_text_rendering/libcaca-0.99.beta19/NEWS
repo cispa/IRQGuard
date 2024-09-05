@@ -1,0 +1,223 @@
+/** \page libcaca-news Libcaca news
+
+\section news0_99_beta18 Changes between 0.99.beta18 and 0.99.beta17
+
+ - new "cacaclock" utility
+ - improved FIGlet support
+ - improved Python and Ruby bindings
+ - numerous improvements and bugfixes
+
+\section news0_99_beta17 Changes between 0.99.beta17 and 0.99.beta16
+
+ - new dirty rectangle framework for accelerated rendering
+ - new <conio.h> compatible header for old DOS software porting
+ - XCode and Visual Studio build improvements
+ - Unicode support in the X11 driver
+ - triangle texture mapping
+ - improved HTML output
+ - new troff output
+ - improved Ruby and .NET bindings
+ - new comprehensive PHP bindings
+ - new Java bindings
+ - Cocoa driver enhancements
+ - support for ANSI colour in FIGlet and TOIlet fonts
+ - documentation updates
+ - numerous improvements and bugfixes
+
+\section news0_99_beta16 Changes between 0.99.beta16 and 0.99.beta15
+
+ - many build fixes, especially for nonstandard platforms
+
+\section news0_99_beta15 Changes between 0.99.beta15 and 0.99.beta14
+
+ - libcucul was merged back into libcaca for more clarity
+
+\section news0_99_beta14 Changes between 0.99.beta14 and 0.99.beta13
+
+ - internal FIGlet font support
+ - use C99 types in public headers
+ - runtime support for output drivers
+ - BBcode export support
+
+\section news0_99_beta13 Changes between 0.99.beta13 and 0.99.beta12
+
+ - device-dependent cursor support
+ - event API rewrite
+ - minor API improvements and extensions
+ - img2txt improvements
+ - Ruby bindings
+ - Massive C# bindings improvements
+ - Python sample code
+ - Visual Studio build solution
+
+\section news0_99_beta12 Changes between 0.99.beta12 and 0.99.beta11
+
+ - support for 90-degree canvas rotation
+ - better behaviour when trying to output Unicode on an ASCII terminal
+ - the built-in font now supports the Geometric Shapes, Halfwidth and Fullwidth
+   Forms and Miscellaneous Symbols Unicode blocks
+ - new rotozoom effect in cacademo
+ - Cocoa output driver for Mac OS X
+ - preliminary .NET bindings
+ - many bugfixes and documentation changes
+
+\section news0_99_beta11 Changes between 0.99.beta11 and 0.99.beta10
+
+ - fixed compilation of the C++ bindings
+ - fixed bugs in cucul_import_memory(), cucul_set_canvas_size()
+ - implemented caca_set_display_title() for ncurses and S-Lang
+ - minor bugfixes
+
+\section news0_99_beta10 Changes between 0.99.beta10 and 0.99.beta9
+
+ - new debug mode
+ - blitting canvases now makes use of the canvas' handle coordinates
+ - import functions can read streamed data
+ - attribute to colorspace transformations
+ - added katakana and hiragana glyphs to the built-in font
+ - many bugfixes and documentation changes
+
+\section news0_99_beta9 Changes between 0.99.beta9 and 0.99.beta8
+
+ - support for blink, bold, italics and underline attributes
+ - allow to import and export zero-sized canvases
+ - fixed Imlib2 support in cacaview
+ - fixed buffer overlows in the file importer
+ - big documentation updates
+
+\section news0_99_beta8 Changes between 0.99.beta8 and 0.99.beta7
+
+ - allow to build the X11 and GL drivers as separate plugins
+ - support for fullwidth Unicode characters
+ - improved cucul_flip() and cucul_rotate()
+ - minor bugfixes and documentation updates
+
+\section news0_99_beta7 Changes between 0.99.beta7 and 0.99.beta6
+
+ - transparency support in the UTF-8 importer and exporter
+ - optimised triangle fill routine
+ - updated C++ bindings
+
+\section news0_99_beta6 Changes between 0.99.beta6 and 0.99.beta5
+
+ - ANSI importer now handles transparency and UTF-8
+ - Unicode support was broken for about 10% of the set
+ - various memory leaks were fixed
+
+\section news0_99_beta5 Changes between 0.99.beta5 and 0.99.beta4
+
+ - implemented cucul_getchar() and cucul_get_color()
+ - handle transparency in the IRC export
+ - new cropping and expanding filters
+ - full Unicode support in the OpenGL driver
+ - portability fixes for 64-bit architectures, Win32 and MS-DOS
+ - all demos except cacafire were merged into cacademo
+
+\section news0_99_beta4 Changes between 0.99.beta4 and 0.99.beta3
+
+ - added a compatibility layer for pre-1.x libcaca applications
+ - fixed manpage generation
+ - minor bugfixes and documentation updates
+
+\section news0_99_beta3 Changes between 0.99.beta3 and 0.99.beta2
+
+ - libcaca functions use errno for error reporting
+ - updated C++ bindings
+ - minor improvements, bugfixes and documentation updates
+
+\section news0_99_beta2 Changes between 0.99.beta2 and 0.99.beta1
+
+ - ANSI importer
+ - functions use errno for error reporting
+ - updated C++ bindings
+ - .NET bindings
+ - cacadraw, an ANSI viewer that will evolve into an editor
+ - Unicode input and output support for SLang and ncurses
+ - built-in fonts work on Win32
+
+\section news0_99_beta1 Changes between 0.9 and 0.99.beta1
+
+ - license switched to WTFPL
+ - libcaca was split into libcucul, a standalone text manipulation backend,
+    and libcaca, the display and user input frontend
+ - Unicode support
+ - TrueColor (more than 16 colours) support
+ - Floyd-Steinberg dithering
+ - gamma correction
+ - export functions for HTML, IRC, ANSI, SVG, PostScript, TGA...
+ - builtin fonts for device-independent bitmap output
+ - various text transformation routines (rotation, horizontal flip...)
+ - OpenGL renderer
+ - kernel mode to build libcaca programs into a bootable x86 kernel
+ - cacaserver, a telnet server that can be hooked to libcaca applications
+ - img2irc, an image to IRC conversion utility
+
+\section news0_9 Changes between 0.8 and 0.9
+
+ - fix for a buffer overflow in the line rendering
+ - fixed resizing in the ncurses and slang drivers
+ - aspect ratio and finer zoom support in cacaview
+ - minor compilation fixes
+
+\section news0_8 Changes between 0.7 and 0.8
+
+ - window resizing support
+ - native Win32 port
+ - autorepeat emulation in the ncurses and slang drivers
+ - support for more keycodes in the ncurses and slang drivers
+ - cacaplas, a plasma animation example
+ - cacamoir, a moire circles animation example
+ - MSVC project file
+
+\section news0_7 Changes between 0.6 and 0.7
+
+ - many bugfixes in the event handling
+ - cacaball, a metaball animation example
+
+\section news0_6 Changes between 0.5 and 0.6
+
+ - 30% speed increase in the bitmap rendering routine
+ - mouse support and various speed optimisations in the X11 driver
+ - X11 is now the preferred driver
+ - improved documentation
+ - minor bugfixes
+
+\section news0_5 Changes between 0.4 and 0.5
+
+ - palette optimisation for the S-Lang driver to work around the colour pair
+    shortage bug
+ - minor compilation fix
+
+\section news0_4 Changes between 0.3 and 0.4
+
+ - preliminary X11 graphics driver
+ - support for simultaneously compiled-in drivers
+ - honour the CACA_DRIVER, CACA_GEOMETRY and CACA_FONT environment variables
+ - more documentation
+
+\section news0_3 Changes between 0.2 and 0.3
+
+ - antialiasing support
+ - dithering, antialiasing and background mode can now be selected at
+    runtime or in the environment using the CACA_BACKGROUND, CACA_DITHERING
+    and CACA_ANTIALIASING variables
+ - alpha channel support in cacaview
+ - BMP loading support in cacaview even if Imlib2 is not present
+ - cacafire, a libcaca port of aafire
+
+\section news0_2 Changes between 0.1 and 0.2
+
+ - rendering now uses 256 colour pairs instead of 16
+ - mouse support for ncurses
+ - ncurses is now the preferred backend
+ - arbitrary color depth and bitmasks in the bitmap renderer
+ - cacaview, an image viewer based on libcaca
+
+\section news_0_1 New in 0.1
+
+ - initial release
+ - slang, ncurses and conio drivers
+ - basic line, box, ellipse and triangle primitives
+ - colour bitmap blitting
+
+*/

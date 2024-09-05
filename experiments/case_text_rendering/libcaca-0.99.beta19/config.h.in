@@ -1,0 +1,268 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if <windows.h> defines AllocConsole. */
+#undef ALLOCCONSOLE_IN_WINDOWS_H
+
+/* Define to 1 to activate debug */
+#undef DEBUG
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the `atexit' function. */
+#undef HAVE_ATEXIT
+
+/* Define to 1 if you have the <Cocoa/Cocoa.h> header file. */
+#undef HAVE_COCOA_COCOA_H
+
+/* Define to 1 if you have the <conio.h> header file. */
+#undef HAVE_CONIO_H
+
+/* Define to 1 if you have the <curses.h> header file. */
+#undef HAVE_CURSES_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <endian.h> header file. */
+#undef HAVE_ENDIAN_H
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the ‘fldln2’ and other floating point
+   instructions. */
+#undef HAVE_FLDLN2
+
+/* Define to 1 if you have the ‘fsin’ and ‘fcos’ instructions. */
+#undef HAVE_FSIN_FCOS
+
+/* Define to 1 if you have the `getenv' function. */
+#undef HAVE_GETENV
+
+/* Define to 1 if you have the <getopt.h> header file. */
+#undef HAVE_GETOPT_H
+
+/* Define to 1 if you have the ‘getopt_long’ function. */
+#undef HAVE_GETOPT_LONG
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the ‘glutCheckLoop’ function. */
+#undef HAVE_GLUTCHECKLOOP
+
+/* Define to 1 if you have the ‘glutCloseFunc’ function. */
+#undef HAVE_GLUTCLOSEFUNC
+
+/* Define to 1 if you have the <GL/glut.h> header file. */
+#undef HAVE_GL_GLUT_H
+
+/* Define to 1 if you have the <GL/gl.h> header file. */
+#undef HAVE_GL_GL_H
+
+/* Define to 1 if you have the `htons' function. */
+#undef HAVE_HTONS
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `ioctl' function. */
+#undef HAVE_IOCTL
+
+/* Define to 1 if you have the <jni.h> header file. */
+#undef HAVE_JNI_H
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if you have the <ncursesw/ncurses.h> header file. */
+#undef HAVE_NCURSESW_NCURSES_H
+
+/* Define to 1 if you have the <ncurses.h> header file. */
+#undef HAVE_NCURSES_H
+
+/* Define to 1 if you have the <ncurses/ncurses.h> header file. */
+#undef HAVE_NCURSES_NCURSES_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the <OpenGL/gl.h> header file. */
+#undef HAVE_OPENGL_GL_H
+
+/* Define to 1 if you have the `putenv' function. */
+#undef HAVE_PUTENV
+
+/* Define to 1 if you have the `resizeterm' function. */
+#undef HAVE_RESIZETERM
+
+/* Define to 1 if you have the `resize_term' function. */
+#undef HAVE_RESIZE_TERM
+
+/* Define to 1 if you have the <ruby.h> header file. */
+#undef HAVE_RUBY_H
+
+/* Define to 1 if you have the `signal' function. */
+#undef HAVE_SIGNAL
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* Define to 1 if you have the <slang.h> header file. */
+#undef HAVE_SLANG_H
+
+/* Define to 1 if you have the <slang/slang.h> header file. */
+#undef HAVE_SLANG_SLANG_H
+
+/* Define to 1 if you have the ‘Sleep’ function. */
+#undef HAVE_SLEEP
+
+/* Define to 1 if you have the ‘SLsmg_utf8_enable’ function. */
+#undef HAVE_SLSMG_UTF8_ENABLE
+
+/* Define to 1 if you have the `snprintf' function. */
+#undef HAVE_SNPRINTF
+
+/* Define to 1 if you have the `sprintf_s' function. */
+#undef HAVE_SPRINTF_S
+
+/* Define to 1 if you have the <stdarg.h> header file. */
+#undef HAVE_STDARG_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strcasecmp' function. */
+#undef HAVE_STRCASECMP
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#undef HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <termios.h> header file. */
+#undef HAVE_TERMIOS_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `usleep' function. */
+#undef HAVE_USLEEP
+
+/* Define to 1 if you have the `vsnprintf' function. */
+#undef HAVE_VSNPRINTF
+
+/* Define to 1 if you have the `vsnprintf_s' function. */
+#undef HAVE_VSNPRINTF_S
+
+/* Define to 1 if you have the <windows.h> header file. */
+#undef HAVE_WINDOWS_H
+
+/* Define to 1 if you have the <winsock2.h> header file. */
+#undef HAVE_WINSOCK2_H
+
+/* Define to 1 if you have the <X11/XKBlib.h> header file. */
+#undef HAVE_X11_XKBLIB_H
+
+/* Define to 1 if you have the <zlib.h> header file. */
+#undef HAVE_ZLIB_H
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 to activate profiling */
+#undef PROF
+
+/* Define as the return type of signal handlers (`int' or `void'). */
+#undef RETSIGTYPE
+
+/* Define to 1 if <pc.h> defines ScreenUpdate. */
+#undef SCREENUPDATE_IN_PC_H
+
+/* Define to 1 if all of the C90 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#undef STDC_HEADERS
+
+/* Define to 1 to activate the Cocoa backend driver */
+#undef USE_COCOA
+
+/* Define to 1 to activate the conio.h backend driver */
+#undef USE_CONIO
+
+/* Define to 1 to activate the OpenGL backend driver */
+#undef USE_GL
+
+/* Define to 1 to use Imlib2 */
+#undef USE_IMLIB2
+
+/* Define to 1 to activate kernel mode */
+#undef USE_KERNEL
+
+/* Define to 1 to activate the ncurses backend driver */
+#undef USE_NCURSES
+
+/* Define to 1 to activate plugins */
+#undef USE_PLUGINS
+
+/* Define to 1 to activate the slang backend driver */
+#undef USE_SLANG
+
+/* Define to 1 to activate the VGA backend driver */
+#undef USE_VGA
+
+/* Define to 1 to activate the win32 backend driver */
+#undef USE_WIN32
+
+/* Define to 1 to activate the X11 backend driver */
+#undef USE_X11
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
