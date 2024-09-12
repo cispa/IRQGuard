@@ -20,7 +20,7 @@ iguard essentially needs the following steps:
 
 ## Dependencies
 Our PoC only supports Intel x86 CPUs with atleast performance monitoring version 4.
-To compile the kernel module, you need the headers for your specific kernel version, e.g., on Ubuntu installed via `apt install linux-headers-$(uname -r)`.
+To compile the kernel module, you need the headers for your specific kernel version, e.g., on Ubuntu installed via `apt install linux-image$(uname-4) linux-headers-$(uname -r) gcc-12`.
 Note that we currently do not support kernel version 6 and that the module is developed and tested using kernel 5.15.
 
 ## Usage
