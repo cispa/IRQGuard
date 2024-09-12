@@ -5,7 +5,7 @@ in the research paper "No Leakage Without State Change: Repurposing Configurable
 The framework is designed to detect and prevent ongoing microarchitectural side-channel attacks.
 
 ## Supported Platforms
-The PoC implementation supports only Intel x86 processors.
+The PoC implementation supports only Intel x86 processors with at least performance monitoring version 4.
 IRQGuard is developed and tested on Ubuntu and currently tested up to Linux kernel 5.15.0. 
 
 ## Building
