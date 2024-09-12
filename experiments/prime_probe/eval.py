@@ -93,9 +93,9 @@ def eval_attack_baseline():
 def eval_iguard_no_attack():
     execute_cmd("make iguard_without_attack")
     try:
-        execute_cmd("sudo insmod iguardV3/iguardefender.ko")
+        execute_cmd("sudo insmod iguardV3/iguard.ko")
     except subprocess.CalledProcessError:
-        print("[!] Skipping KModule Insertion.")
+        print("[!] Skipping KModule Insertion. (Can be ignored if the module is already loaded)")
     pass
 
     iterations_left = NO_ITERATIONS
@@ -127,9 +127,9 @@ def eval_iguard_no_attack():
 def eval_iguard_attack():
     execute_cmd("make iguard_with_attack")
     try:
-        execute_cmd("sudo insmod iguardV3/iguardefender.ko")
+        execute_cmd("sudo insmod iguardV3/iguard.ko")
     except subprocess.CalledProcessError:
-        print("[!] Skipping KModule Insertion.")
+        print("[!] Skipping KModule Insertion. (Can be ignored if the module is already loaded)")
     pass
 
     iterations_left = NO_ITERATIONS
