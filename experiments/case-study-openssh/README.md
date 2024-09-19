@@ -17,7 +17,8 @@ For this, copy the folder `openssh-7-5` to your system and correct the paths in 
 ### Test the Setup
 Next, load the IRQGuard kernel module.
 If the previous steps all succeeded, you can now start the OpenSSH server by running the file `./run.sh` inside the OpenSSH directory.
-You can test the connection by connecting to the server and enabling the (now protected) ciphersuite, e.g., `ssh -o "Ciphers=aes128-ctr" localhost -p 31337`.
+Now, keep the terminal running `./run.sh` open, while starting a second terminal to connect to the newly spawned SSH server.
+In the second terminal, you can test the connection by connecting to the server and enabling the (now protected) ciphersuite, e.g., `ssh -o "Ciphers=aes128-ctr" localhost -p 31337`.
 Note that the terminal calling `./run.sh` must remain open for the connection to work.
 
 
