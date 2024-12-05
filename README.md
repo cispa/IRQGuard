@@ -1,6 +1,6 @@
 # IRQGuard
 This repository contains the implementation of the IRQGuard framework discussed 
-in the research paper "No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks" (ACSAC 2024). TODO: paper link
+in the research paper ["No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks" (ACSAC 2024)](https://misc0110.net/files/irqguard_acsac24.pdf). 
 
 The framework is designed to detect and prevent ongoing microarchitectural side-channel attacks.
 
@@ -12,10 +12,10 @@ IRQGuard is developed and tested on Ubuntu and currently tested up to Linux kern
 Follow the instructions of `./irqguard`.
 
 ## Contact
-If there are questions regarding this tool, please send an email to `daniel.weber (AT) cispa.saarland` or message `@weber_daniel` on Twitter.
+If there are questions regarding this tool, please send an email to `daniel.weber (AT) cispa.de` or message `@weber_daniel` on Twitter.
 
 ## Research Paper
-The paper is available at TODO.
+The paper is available [here](https://misc0110.net/files/irqguard_acsac24.pdf).
 You can cite our work with the following BibTeX entry:
 TODO
 
