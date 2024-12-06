@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite our research paper as below."
+preferred-citation: article
+authors:
+- family-names: "Weber"
+  given-names: "Daniel"
+- family-names: "Niemann"
+  given-names: "Leonard"
+- family-names: "Gerlach"
+  given-names: "Lukas"
+- family-names: "Reineke"
+  given-names: "Jan"
+- family-names: "Schwarz"
+  given-names: "Michael"
+title: "No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks"
+year: 2024
+booktitle: ACSAC
+
