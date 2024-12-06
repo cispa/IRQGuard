@@ -17,7 +17,14 @@ If there are questions regarding this tool, please send an email to `daniel.webe
 ## Research Paper
 The paper is available [here](https://misc0110.net/files/irqguard_acsac24.pdf).
 You can cite our work with the following BibTeX entry:
-TODO
+```
+@inproceedings{Weber2024Irqguard,
+ author={Weber, Daniel and Niemann, Leonard and Gerlach, Lukas and Reineke, Jan and Schwarz, Michael},
+ booktitle = {ESORICS},
+ title={No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks},
+ year = {2024}
+}
+```
 
 ## Disclaimer
 We are providing this code as-is. 
