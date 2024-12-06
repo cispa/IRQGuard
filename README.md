@@ -20,7 +20,7 @@ You can cite our work with the following BibTeX entry:
 ```
 @inproceedings{Weber2024Irqguard,
  author={Weber, Daniel and Niemann, Leonard and Gerlach, Lukas and Reineke, Jan and Schwarz, Michael},
- booktitle = {ESORICS},
+ booktitle = {ACSAC},
  title={No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks},
  year = {2024}
 }
